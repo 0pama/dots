@@ -1,0 +1,238 @@
+* {
+    border: none;
+    border-radius: 0px;
+    font-family: "JetBrainsMono Nerd Font","JetBrainsMono Nerd Font";
+    font-weight: bold;
+    font-size: 10px;
+    min-height: 10px;
+}
+
+@import "theme.css";
+
+window#waybar {
+    background: transparent;
+}
+
+tooltip {
+    background: @main-bg;
+    color: @main-fg;
+    border-radius: 7px;
+    border-width: 0px;
+}
+
+#workspaces button {
+    box-shadow: none;
+    text-shadow: none;
+    padding: 0px;
+    border-radius: 0px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-right: 0px;
+    color: @main-fg;
+    background: transparent;
+    border-bottom: 2px solid transparent;
+}
+
+#workspaces button.active {
+    background: transparent;
+    color: @wb-act-fg;
+    border-bottom: 2px solid @wb-act-bg;
+    margin-left: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: 3px;
+}
+
+#workspaces button:hover {
+    background: transparent;
+    color: @wb-hvr-fg;
+    border-bottom: 2px solid rgba(255,255,255,0.3);
+}
+
+#taskbar button {
+    box-shadow: none;
+    text-shadow: none;
+    padding: 0px;
+    border-radius: 0px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-right: 0px;
+    color: @wb-color;
+    background: transparent;
+    border: 1px solid transparent;
+}
+
+#taskbar button.active {
+    background: transparent;
+    color: @wb-act-color;
+    border: 1px solid @wb-act-bg;
+    margin-left: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: 3px;
+}
+
+#taskbar button:hover {
+    background: transparent;
+    color: @wb-hvr-color;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+#tray menu * {
+    min-height: 16px
+}
+
+#tray menu separator {
+    min-height: 10px
+}
+
+#backlight,
+#battery,
+#bluetooth,
+#custom-cava,
+#custom-cliphist,
+#clock,
+#clock,
+#custom-cpuinfo,
+#cpu,
+#custom-display,
+#custom-github_hyde,
+#custom-github_hyprdots,
+#custom-gpuinfo,
+#custom-hyprsunset,
+#idle_inhibitor,
+#custom-keybindhint,
+#language,
+#memory,
+#mpris,
+#network,
+#custom-notifications,
+#custom-power,
+#privacy,
+#pulseaudio,
+#custom-sensorsinfo,
+#custom-spotify,
+#taskbar,
+#taskbar,
+#taskbar#windows,
+#custom-theme,
+#tray,
+#custom-updates,
+#custom-wallchange,
+#custom-wbar,
+#custom-weather,
+#window,
+#workspaces,
+#workspaces,
+#workspaces,
+#custom-l_end,
+#custom-r_end,
+#custom-sl_end,
+#custom-sr_end,
+#custom-rl_end,
+#custom-rr_end {
+    color: @main-fg;
+    background: transparent;
+    opacity: 1;
+    margin: 4px 0px 4px 0px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-bottom: 1px solid transparent;
+}
+
+#workspaces,
+#taskbar {
+    padding: 0px;
+    background: transparent;
+}
+
+#custom-r_end {
+    border-radius: 0px;
+    margin-right: 9px;
+    padding-right: 3px;
+    background: transparent;
+}
+
+#custom-l_end {
+    border-radius: 0px;
+    margin-left: 9px;
+    padding-left: 3px;
+    background: transparent;
+}
+
+#custom-sr_end {
+    border-radius: 0px;
+    margin-right: 9px;
+    padding-right: 3px;
+    background: transparent;
+}
+
+#custom-sl_end {
+    border-radius: 0px;
+    margin-left: 9px;
+    padding-left: 3px;
+    background: transparent;
+}
+
+#custom-rr_end {
+    border-radius: 0px;
+    margin-right: 9px;
+    padding-right: 3px;
+    background: transparent;
+}
+
+#custom-rl_end {
+    border-radius: 0px;
+    margin-left: 9px;
+    padding-left: 3px;
+    background: transparent;
+}
+
+#backlight:hover,
+#battery:hover,
+#bluetooth:hover,
+#custom-cliphist:hover,
+#clock:hover,
+#custom-cpuinfo:hover,
+#cpu:hover,
+#custom-display:hover,
+#custom-github_hyde:hover,
+#custom-github_hyprdots:hover,
+#custom-gpuinfo:hover,
+#custom-hyprsunset:hover,
+#idle_inhibitor:hover,
+#custom-keybindhint:hover,
+#language:hover,
+#memory:hover,
+#mpris:hover,
+#network:hover,
+#custom-notifications:hover,
+#custom-power:hover,
+#privacy:hover,
+#pulseaudio:hover,
+#custom-sensorsinfo:hover,
+#custom-spotify:hover,
+#custom-theme:hover,
+#tray:hover,
+#custom-updates:hover,
+#custom-wallchange:hover,
+#custom-wbar:hover,
+#custom-weather:hover,
+#window:hover {
+    background: transparent;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+#battery.critical {
+    color: #ff4757;
+}
+
+#battery.warning {
+    color: #ffa502;
+}

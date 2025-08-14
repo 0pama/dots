@@ -1,0 +1,6 @@
+"custom/cava": {
+	"format": "{}",
+	"exec": "cava.sh stdout --width 10 --range 5 --stb 3",
+	"restart-interval": 1,
+	"hide-empty": true
+},

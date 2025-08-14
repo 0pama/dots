@@ -1,0 +1,12 @@
+[ExtractDialog]
+1200x675 screen: Window-Maximized=true
+1280x720 screen: Window-Maximized=true
+1600x900 screen: Window-Maximized=true
+DirHistory[$e]=$HOME/personal/projects/forexbot/,$HOME/Downloads/hacking form - Recherche Google_files/,$HOME/Downloads/,$HOME/personal/projects/,/run/media/opama/ARCH_202409/,$HOME/work/
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+StatusBar=Disabled

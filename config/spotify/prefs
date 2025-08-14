@@ -1,0 +1,16 @@
+autologin.canonical_username="31pabgztbu5xxfoztidsrvki45ji"
+autologin.username="31pabgztbu5xxfoztidsrvki45ji"
+autologin.blob="PEfqjK8xsjtIN6nq2ABYY7DrsNlOgY8PIqN7NplGDxI9uFFyVlNrjIT3kH+dK2iHRE4yJCmfGNhx0u3qr2fO5id/yHRE3Yh8TsAfcylXsado+XmxyYBY4NSbkPWq5DXLCtxr2JiU/daOvF08i4mnpOWpGOApVjP9sf19bLMPYbH4IUsUwPo7E7FbmMFiJBTE+cEuuSRX2MjPH8RCUAJnGTdXLfcq6s1YDYbBTOSIKvEwusXnmL2+2Xr7LpNK0wKofdtM5iVKrKgcE5YoLsLj6eV0AQdgVCAwD5Wi5Ll/02BtsYOsN6bXq69YJ2o+evDaDfd6SmObEkPgmDcsUC0w36aN9u/Nb2JNPz/keO1gaco="
+autologin.saved_credentials="{\"31pabgztbu5xxfoztidsrvki45ji\":[\"31pabgztbu5xxfoztidsrvki45ji\",\"PEfqjK8xsjtIN6nq2ABYY7DrsNlOgY8PIqN7NplGDxI9uFFyVlNrjIT3kH+dK2iHRE4yJCmfGNhx0u3qr2fO5id/yHRE3Yh8TsAfcylXsado+XmxyYBY4NSbkPWq5DXLCtxr2JiU/daOvF08i4mnpOWpGOApVjP9sf19bLMPYbH4IUsUwPo7E7FbmMFiJBTE+cEuuSRX2MjPH8RCUAJnGTdXLfcq6s1YDYbBTOSIKvEwusXnmL2+2Xr7LpNK0wKofdtM5iVKrKgcE5YoLsLj6eV0AQdgVCAwD5Wi5Ll/02BtsYOsN6bXq69YJ2o+evDaDfd6SmObEkPgmDcsUC0w36aN9u/Nb2JNPz/keO1gaco=\"]}"
+app.window.state.saved=true
+app.window.position.width=1278
+app.rollback-to-sc=true
+es.send-on-startup=true
+core.clock_delta=-1
+app.window.state=2
+app.window.position.saved=true
+app.window.position.height=692
+storage.last-location="/home/opama/.cache/spotify/Storage"
+app.enable-developer-mode=true
+es.use-lmdb=true
+app.last-launched-version="1.2.63.394.g126b0d89"
